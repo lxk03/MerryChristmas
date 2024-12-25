@@ -811,10 +811,10 @@ function drawStars() {
 
 
     let myLabels = [
-      "秋云宝贝",
-      "Merry Christmas",
-      "健健康康，平安喜乐",
-      "一定要站在你所热爱的世界里闪闪发光",
+      "世界上最好最好的郑垚",
+      "圣诞快乐",
+      "祝你健健康康，平安喜樂，万事胜意",
+      "噢对，天气冷了一定要多加衣服",
     ];
     
     function init() {
@@ -834,8 +834,13 @@ function drawStars() {
       }      
     }
     let init_flag = false;
+
       // music
-      let music_url = "http://music.163.com/song/media/outer/url?id=1892513656.mp3";
+      
+      let music_url = "https://rh-sycdn.kuwo.cn/29c1b3caed4eb0f2113fcf861f764582/676be3b4/resource/n2/64/68/3124003505.mp3";
+      //http://music.163.com/song/media/outer/url?id=1892513656.mp3
+
+      
       let _music = new Audio(music_url);
       window.onclick = function() {
         if(init_flag) return;
